@@ -1,0 +1,110 @@
+Search Computer@DESKTOP-E MINGW64 ~ (master)
+$ mkdir may
+
+Search Computer@DESKTOP-E MINGW64 ~ (master)
+$ cd may
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ notepad ++
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git init
+Initialized empty Git repository in C:/Users/Search Compute
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be commi
+        ++.txt
+        ma.txt
+
+nothing added to commit but untracked files present (use "g
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git add .
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git commit -m"git commit"
+[master (root-commit) 1d64486] git commit
+ 2 files changed, 2 insertions(+)
+ create mode 100644 ++.txt
+ create mode 100644 ma.txt
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git config --global user.name "emebett"
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git config --global user.email "emebetcs2009@gmail.com"
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git remote add origin https://github.com/emebett/may.git
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git push -u origin master
+remote: Permission to emebett/may.git denied to emebetemu.
+fatal: unable to access 'https://github.com/emebett/may.gitr: 403
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git config --global user.name "emebetemu"
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git config --global user.email "emebetwalee@gmail.com"
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git remote add origin git@github.com:emebetemu/june.git
+error: remote origin already exists.
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git remote add origin https://github.com/emebetemu/june.g
+error: remote origin already exists.
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git push -u origin master
+remote: Permission to emebett/may.git denied to emebetemu.
+fatal: unable to access 'https://github.com/emebett/may.gitr: 403
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ ^C
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$  git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 219 bytes | 4.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by vis
+remote:      https://github.com/emebett/may/pull/new/master
+remote:
+To https://github.com/emebett/may.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$  notepad++
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git branch dmu
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git branch
+  dmu
+* master
+
+Search Computer@DESKTOP-E MINGW64 ~/may (master)
+$ git checkout dmu
+Switched to branch 'dmu'
+
+Search Computer@DESKTOP-E MINGW64 ~/may (dmu)
+$ git branch
+* dmu
+  master
+
+Search Computer@DESKTOP-E MINGW64 ~/may (dmu)
+$
